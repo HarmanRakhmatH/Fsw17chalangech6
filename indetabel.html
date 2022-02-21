@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <table class="table table-success table-striped">
+        <thead>
+            <tr>
+                <th>ID Users</th>
+                <th>UserName</th>
+                <th>Email</th>
+                <th>Password</th>
+                <th>Age</th>
+                <th>Address</th>
+                <th>City</th>
+                <th>uuid_game_biodata</th>
+                <th>win</th>
+                <th>lose</th>
+                <th>uuid_game_history</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><%=  data.id %> </td>
+                <td><%=  data.username %> </td>
+                <td><%=  data.email %> </td>
+                <td><%=  data.password.users %> </td>
+                <td><%=  data.age %> </td>
+                <td><%=  data.address %> </td>
+                <td><%=  data.city %> </td>
+                <td><%=  data.user_uuid %> </td>
+                <td><%=  data.win %> </td>
+                <td><%=  data.lose %> </td>
+                <td><%=  data.user_uuid %> </td>
+                <!-- edit bentuk query string check data maana yang mau di edit -->
+                <!-- kalo di ejs di tambahin kutip gk jadi string -->
+                <!-- kalo klik href edit , edit?id= dari data.id -->
+                <td>
+                    <div class="row">
+                        <div class="col-6">
+                            <a href="edit?id=<%= item.id %> ">
+                                <button class="btn btn-warning">
+                                    Edit
+                                </button>
+                            </a>
+                        </div>
+                        <div class="col-6">
+                            <form action="delete?id=<%= item.id %>" method="POST">
+                                <button class="btn btn-danger">
+                                    Delete
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+</body>
+
+</html>

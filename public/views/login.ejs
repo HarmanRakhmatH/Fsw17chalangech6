@@ -1,0 +1,54 @@
+<html lang="en">
+
+
+<%- include('partial/head') %>
+
+
+
+<body class="text-center">
+
+    <main class="form-signin">
+        <form action="/login" method="post">
+
+            <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+
+            <div class="form-floating">
+                <input type="email" class="form-control" name="email" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Email address</label>
+
+                <% if (status === 'emailnotfound') { %>
+                <%- include('partial/email-not-found') %>
+                <% } %>
+            </div>
+            <div class="form-floating">
+                <input type="password" class="form-control" name="password" id="floatingPassword"
+                    placeholder="Password">
+                <label for="floatingPassword">Password</label>
+                <% if (status === 'wrongpassword') { %>
+                <%- include('partial/wrong-password') %>
+                <% } %>
+            </div>
+
+            <div class="checkbox mb-3">
+                <label>
+                    <input type="checkbox" value="remember-me"> Remember me
+                </label>
+            </div>
+
+
+            <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+            <p class="mt-5 mb-3 text-muted">© 2017–2021</p>
+
+        </form>
+        <a href="/register">
+            <button class="btn btn-primary mb-2 mt-5">Register</button>
+        </a>
+
+    </main>
+
+
+
+
+</body>
+
+</html>

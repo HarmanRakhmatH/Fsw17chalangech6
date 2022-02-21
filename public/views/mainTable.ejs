@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include('partial/head') %>
+
+
+<body>
+
+    <!-- manggil kelas bootstrap container agara lebih responsive -->
+    <div class="container-fluid">
+        <h1 class="text-center"> <%= data.username %> </h1>
+        <h1 class="text-center">Data User Game Traditional</h1>
+        <!-- buat tombol add -->
+        <a href="/register">
+            <button class="btn btn-primary mb-2 mt-5">Register</button>
+        </a>
+
+        <a href="/AccountUser/edit/<%= data.uuid %>">
+            <button class="btn btn-warning">
+                Edit
+            </button>
+        </a>
+        <a href="/"><button type="button" class="btn-back my-2">Logout</button></a>
+        <!-- jadi kalo table itu selalu ada yang namanya table head-->
+        <!-- di table head #id first , last, handle -->
+        <!-- kalo yang bawah namanya table row -->
+        <!-- setiap data ahrus punya id biar manggilnya gak bingung -->
+        <form action="/AccountUser/<%= data.uuid %> ">
+            <table class="table table-success table-striped">
+                <thead>
+                    <tr>
+                        <th>ID Users</th>
+                        <th>UserName</th>
+                        <th>Email</th>
+                        <th>Password</th>
+                        <th>Age</th>
+                        <th>Address</th>
+                        <th>City</th>
+                        <th>uuid_game_biodata</th>
+                        <th>win</th>
+                        <th>lose</th>
+                        <th>uuid_game_history</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><%=  data.id %> </td>
+                        <td><%=  data.username %> </td>
+                        <td><%=  data.email %> </td>
+                        <td><%=  data.password %> </td>
+                        <td><%=  data.age %> </td>
+                        <td><%=  data.address %> </td>
+                        <td><%=  data.city %> </td>
+                        <td><%=  data.user_uuid %> </td>
+                        <td><%=  data.win %> </td>
+                        <td><%=  data.lose %> </td>
+                        <td><%=  data.user_uuid %> </td>
+                        <!-- edit bentuk query string check data maana yang mau di edit -->
+                        <!-- kalo di ejs di tambahin kutip gk jadi string -->
+                        <!-- kalo klik href edit , edit?id= dari item.id -->
+                        <td>
+                            <div class="row">
+                                <div class="col-6">
+
+                                </div>
+                                <div class="col-6">
+                                    <form action="/delete/<%= data.uuid %>" method="POST">
+                                        <button class="btn btn-danger">
+                                            Delete
+                                        </button>
+                                    </form>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </form>
+
+    </div>
+
+
+
+
+
+    <script src="/js/bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

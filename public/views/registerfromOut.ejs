@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include('partial/head') %>
+
+<body>
+    <%- include('partial/navbar') %>
+    <!-- yang mau saya tampilkan disini port  -->
+    <div class="container-fluid">
+        <h1 class="text-center"> User Register from out</h1>
+        <!--  kita butuh form supaya user bisa input -->
+        <div class="register-edit">
+            <form action="/registerfromout" method="POST">
+                <input class="form-control  w-100" type="text" name="nama" placeholder="Masukkan Nama">
+                <input class="form-control  w 100 mt-2" type="text" name="email" placeholder="Masukkan email">
+                <input class="form-control inpas  w-50 mt-2 text-center" type="password" name="password"
+                    placeholder="Masukkan password">
+                <!-- <input class="form-control  w-100 mt-2" type="text" name="genre_music2"
+                    placeholder="genre music ke dua"> -->
+
+                <div class="text-center mt-2">
+                    <button class="btn btn-warning btn-lg">Register</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+</body>
+<script>

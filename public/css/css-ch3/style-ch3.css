@@ -1,0 +1,2914 @@
+#nav-header-satu {
+    background-image: url(../../images/images-ch3/assets-ch3/main-bg.jpg);
+    background-color: #cccccc;
+    /* height: 100vh; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative !important;
+    /* width: 1441.55px;
+    height: 960.25px; */
+    width: 2100px;
+    /* width: 100%; */
+    height: 1400px;
+    left: -1.55px;
+    top: 0px;
+
+}
+
+/* a {
+    text-decoration: none;
+} */
+
+.bg-light {
+    width: 2100px;
+    height: 80px;
+    top: -0.3px !important;
+    position: absolute !important;
+    left: 0%;
+    right: 0%;
+    top: -0.03%;
+    bottom: 90.66%;
+    background-color: #212529 !important;
+    opacity: 0.7;
+
+
+}
+
+.navbar {
+    position: relative !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    align-items: center;
+    justify-content: space-between !important;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+
+
+}
+
+.navbar-brand {
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    text-decoration: none;
+    white-space: nowrap;
+    position: absolute !important;
+    width: 77px;
+    height: 33px;
+    margin-left: 107px;
+    top: 24px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: bold !important;
+    font-size: 24px;
+    line-height: 33px;
+    /* identical to box height */
+
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #FFFFFF !important;
+
+}
+
+
+
+.navbar-nav {
+
+    /* position: absolute;
+    left: 22.64%;
+    right: 11.26%;
+    top: 3.82%;
+    bottom: 93.95%; */
+    /* position: absolute; */
+
+
+    display: -ms-flexbox !important;
+    margin-left: 22.64% !important;
+    margin-right: 11.26% !important;
+    /* top: 3.82%!important; */
+    /* bottom: 93.95%!important; */
+    margin-bottom: 0 !important;
+    display: flex !important;
+    /* flex-direction: row!important; */
+    flex-direction: column !important;
+    padding-left: 0 !important;
+    margin-bottom: 0 !important;
+    /* margin-top: 1%;
+    margin-left:30%; */
+    flex-wrap: nowrap;
+    list-style: none !important;
+    -ms-flex-direction: column !important;
+}
+
+
+/* bawaan pabrik nav-link */
+/* .nav-link {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    text-align: right; 
+    position: absolute;
+        display: block;
+        padding: .5rem 1rem;
+        color: #0d6efd;
+        text-decoration: none;
+        transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+    }    */
+.nav-link-main {
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 16px;
+        letter-spacing: 0.1em;
+        text-align: right; */
+    /* position: relative; */
+    position: absolute !important;
+    margin-right: 2%;
+    width: 63.51px;
+    height: 20.19px;
+    margin-left: 2%;
+    top: 37px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: right;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #FFFFFF !important;
+
+
+
+
+}
+
+
+.nav-link-work {
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    text-align: right; */
+
+
+    /* position: relative */
+    position: absolute !important;
+    margin-right: 2%;
+    width: 65.51px;
+    height: 20.19px;
+    margin-left: 7%;
+    top: 37px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: right;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF !important;
+
+
+
+}
+
+.nav-link-contact {
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: 16px;
+letter-spacing: 0.1em;
+text-align: left; */
+    /* position: relative; */
+    /* margin-right: 35px; */
+    position: absolute !important;
+    margin-right: 9%;
+    width: 67.51px;
+    height: 20.19px;
+    margin-left: 13%;
+    top: 37px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF !important;
+
+}
+
+.nav-link-about-me {
+    /* font-family: Open Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    text-align: left; */
+    /* position: absolute; */
+    position: absolute !important;
+    /* margin-left: -200px; */
+    margin-right: -8%;
+    width: 101px;
+    height: 20px;
+    margin-left: 19%;
+    top: 37.7px;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #fff !important;
+}
+
+.nav-link-sign-up {
+    /* font-family: Open Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    text-align: right; */
+    position: absolute !important;
+    width: 65.51px;
+    height: 21.4px;
+    margin-left: 53%;
+    top: 37.02px;
+    margin-right: 35%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: right;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.nav-link-login {
+    /* font-family: Open Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    text-align: right; */
+    position: absolute !important;
+    margin-right: 2%;
+    width: 64px;
+    height: 21.4px;
+    margin-left: 58%;
+    top: 37.02px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: right;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+}
+
+.play-game h1 {
+    /* height: 73.12px; */
+    width: 92%;
+    /* left: 202.72px; */
+    /* top: 313.38px; */
+    top: 37%;
+    position: absolute !important;
+    height: 73.12px;
+    left: 2.22%;
+    right: 1.47%;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+
+}
+
+.play-game h3 {
+    position: absolute;
+    left: 35.84%;
+    /* right: 1.66%; */
+    top: 46.23%;
+    bottom: 50.89%;
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    /* identical to box height */
+
+    letter-spacing: 2px;
+
+    color: #FFFFFF;
+
+}
+
+.play-game button {
+    height: 59.999969482421875px;
+    width: 260.3616943359375px;
+    left: 588px;
+    top: 528.7000732421875px;
+    border-radius: 4px;
+
+    position: absolute;
+    left: 40.83%;
+    right: 41.09%;
+    top: 55.07%;
+    bottom: 38.68%;
+
+    background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+    border-radius: 4px;
+
+}
+
+.btn-play-now {
+    height: 22px;
+    width: 148.21px;
+    left: 644.583px;
+    top: 547.72px;
+
+    position: absolute !important;
+    height: 22px;
+    left: 44.76%;
+    right: 44.95%;
+    top: 160.9px;
+    text-transform: uppercase;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+    text-align: center;
+    text-decoration: none;
+    /* color: inherit; */
+}
+
+.btn-play-now a {
+    color: inherit;
+}
+
+.story-button button {
+    /* width: 6%; */
+    background: transparent;
+    opacity: 1 !important;
+    position: absolute !important;
+    text-decoration: none;
+}
+
+.btn-story {
+    position: relative !important;
+    left: 47.66%;
+    right: 47.61%;
+    top: 94.03%;
+    bottom: 6.4%;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 22px;
+    /* or 183% */
+    display: block;
+    text-align: justify;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #1A1917;
+    /* opacity: 0.7; */
+    /* background: transparent; */
+    border: none;
+}
+
+.scroll-down {
+    height: 8.16px;
+    width: 20.25px;
+    left: 708.32px;
+    top: 898.533px;
+
+
+    position: absolute !important;
+    width: 20.25px;
+    height: 8.17px;
+    left: 708.32px;
+    top: 898.53px;
+
+    border: 2px solid #FFFFFF;
+}
+
+/* .story-button img {
+    height: 8.169122695922852px;
+    width: 20.254405975341797px;
+    left: 708.32421875px;
+    top: 898.5336608886719px;
+    border-radius: 0px;
+
+
+    position: absolute;
+    width: 20.25px;
+    height: 8.17px;
+    left: 708.32px;
+    top: 898.53px;
+
+border: 2px solid #FFFFFF;
+} */
+
+.scrooldown {
+    position: absolute !important;
+    /* top: 0%; */
+    bottom: -3%;
+    left: 50%;
+    width: 17px;
+    height: 17px;
+    /* background-color: #FFF;  */
+    transform: translateY(-90px) translateX(-120%) rotate(45deg);
+    animation: animate 1.5s linear infinite;
+
+}
+
+.scrooldown span {
+    position: absolute !important;
+    top: 0;
+    left: 10px;
+    align-items: center;
+    display: block;
+    width: 100%;
+    height: 100%;
+    /* border-top: 2px solid #fff; */
+    /* border-left: 2px solid #fff; */
+    border-bottom: 3px solid #fff;
+    border-right: 3px solid #fff;
+}
+
+.scrollup {
+    position: absolute !important;
+    /* top: 0%; */
+    /* bottom: -3%; */
+    left: 51.10%;
+    /* right: 43.11%; */
+    top: 101.3%;
+    bottom: 6.4%;
+    height: 18px;
+    width: 22px;
+    /* background-color: #FFF;  */
+    transform: translateY(-90px) translateX(-120%) rotate(90deg);
+    animation: animate 1.5s linear infinite;
+}
+
+.scrollup span {
+    position: absolute !important;
+    top: 50%;
+    left: 0px;
+    align-items: center;
+    display: block;
+    width: 115%;
+    height: 141%;
+    /* border-top: 2px solid blue; */
+    /* border-left: 2px solid blue; */
+    /* border-bottom: 2px solid blue; */
+    border-right: 3px solid #fff;
+}
+
+#content {
+    /* position: absolute;
+width: 1441.99px;
+height: 1048.11px;
+left: 1440.45px;
+top: 960.05px; */
+
+
+
+    /* position: absolute;
+width: 1441.62px;
+height: 1051.43px;
+left: -1.55px;
+top: 959.43px;
+
+background: radial-gradient(136.03% 54.57% at 50% 48.04%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 60.63%, #080A0B 99.74%); */
+
+    width: 2100px;
+    height: 900px;
+    /* width: 100%; */
+    /* height: 75%; */
+    left: -1.55px;
+    top: 0.2px;
+    background: url(../../images/images-ch3/assets-ch3/the-games-bg.jpg);
+    background-color: #0F0F0F;
+    opacity: 1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative !important;
+
+}
+
+.text-h3-about {
+    /* font-family: Arial;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 2px;
+    text-align: left; */
+    height: 28.42px;
+    width: 262.29px;
+    left: 82.01px;
+    top: 281.11px;
+
+
+    position: absolute !important;
+    left: 5.7%;
+    right: 76.09%;
+    top: 28.48%;
+    bottom: 68.64%;
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 2px;
+
+    color: #FFFFFF;
+}
+
+.text-h1-about {
+    position: absolute;
+    height: 73.64px;
+    left: 5.42%;
+    right: 66.01%;
+    top: calc(50% - 73.64px/2 - 133.59px);
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+a {
+    /* color: #FFFFFF; */
+    text-decoration: none;
+}
+
+
+.workspace-game {
+    position: absolute !important;
+    width: 810px;
+    /* height: 200px; */
+    left: 753px;
+    top: 220px;
+}
+
+
+.carousel-indicators [data-bs-target] {
+    /* width: 10px;
+    height: 10px;
+    left:736px;
+    top:771px; */
+    /* border: 1px solid #FFFFFF; */
+
+    width: 10px;
+    height: 10px;
+    border-radius: 10px !important;
+    border-top: 0px !important;
+    border-bottom: 0px !important;
+}
+
+
+
+/* position: absolute;
+    width: 1441.62px;
+    height: 870.26px;
+    left: 0.38px;
+    top: 89.74px;
+    
+    background: radial-gradient(51.1% 80.48% at 30.85% 53.65%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 19.2%, rgba(4, 5, 6, 0.520671) 47.48%, #080A0B 99.74%); */
+/* position: absolute;
+    width: 1441.99px;
+    height: 960.06px;
+    left: 1440.45px;
+    top: 960px;
+
+background: radial-gradient(38.76% 48.3% at 70.49% 41.61%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 15.11%);
+transform: rotate(180deg); */
+/* 
+position: absolute;
+width: 1441.48px;
+height: 960px;
+left: -1.55px;
+top: 960px;
+
+background: #000000;
+transform: matrix(1, 0, 0, -1, 0, 0); */
+/* position: absolute;
+width: 1441.48px;
+height: 871.97px;
+left: 1439.93px;
+top: 88.24px;
+
+background: url(SOS_Character (1).jpg);
+transform: matrix(-1, 0, 0, 1, 0, 0); */
+/* #features-game{
+    /* group */
+/* height: 960.2700805664062px;
+width: 1443.5484619140625px;
+left: 1442px;
+top: -0.0589599609375px;
+border-radius: 0px;
+} */
+
+#features-game {
+
+
+    width: 2100px;
+    height: 1140px;
+    /* width: 100%; */
+    /* height: 75%; */
+    left: 0.38px;
+    top: 0.20px;
+    /* bottom: 200%; */
+    background: url(../../images/images-ch3/assets-ch3/features.jpg);
+    background-color: #0F0F0F;
+    /* opacity: 0.9; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative !important;
+
+
+
+
+
+}
+
+.eclipse-1 {
+    position: absolute;
+    width: 20x;
+    height: 20px;
+    left: 55%;
+    top: 46%;
+
+    background: #FFFFFF;
+
+    border-radius: 10px !important;
+    border-top: 0px !important;
+    border-bottom: 0px !important;
+    transform: rotate(90deg);
+    border: 10px solid #FFFFFF
+        /* border: 1.31px solid rgba(42, 20, 163, 0.933) */
+}
+
+.features-1 {
+    position: absolute;
+    width: 348.2px;
+    height: 38.23px;
+    left: 56.70%;
+    top: 45.50%;
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 2px;
+
+    color: #FFB548;
+}
+
+.progressbar {
+    position: absolute !important;
+    width: 190.03px;
+    height: 1px;
+    left: 50.94%;
+    top: 55.30%;
+
+    border: 1px solid #FFFFFF;
+    transform: rotate(90deg);
+
+}
+
+.text-of-future {
+    position: absolute;
+    left: 58.44%;
+    right: 16.42%;
+    top: 50.32%;
+    bottom: 55.58%;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 29px;
+    line-height: 40px;
+    /* or 122% */
+    word-spacing: 2px;
+    text-align: justify;
+
+    color: #FFFFFF;
+}
+
+.eclipse-2 {
+    position: absolute !important;
+    width: 22px;
+    height: 22px;
+    left: 55%;
+    top: 63.1%;
+    /* border: 2px solid #FFFFFF; */
+    /* border: 1.30637px solid #1013b3; */
+    /* background-color:#0F0F0F;  */
+    /* border-radius: 10px !important; */
+    /* border-top: 0px !important; */
+    /* border-bottom: 0px !important; */
+    /* transform: rotate(90deg); */
+    border: 2.4px solid #FFFFFF;
+    /* border: 1.30637px solid #63ccda; */
+    border-radius: 50px !important;
+    border-top: 2px solid #fff !important;
+    border-bottom: 2px solid #fff !important;
+    border-left: 2px solid #fff !important;
+    border-right: 2px solid #fff !important;
+    transform: rotate(90deg);
+    /* background: #248b75; */
+
+}
+
+.feature-2 {
+    position: absolute !important;
+    width: 366.44px;
+    height: 38.23px;
+    left: 58.30%;
+    top: 62.90%;
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 2px;
+
+    color: #FFB548;
+}
+
+.eclipse-3 {
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    left: 55%;
+    top: 73%;
+
+    border: 2.4px solid #FFFFFF;
+    /* border: 1.30637px solid #63ccda; */
+    border-radius: 50px !important;
+    border-top: 2px solid #fff !important;
+    border-bottom: 2px solid #fff !important;
+    border-left: 2px solid #fff !important;
+    border-right: 2px solid #fff !important;
+    transform: rotate(90deg);
+    /* background: #248b75; */
+}
+
+.feature-3 {
+    position: absolute !important;
+    width: 348.2px;
+    height: 38.23px;
+    left: 58.40%;
+    top: 73%;
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 2px;
+
+    color: #FFB548;
+
+}
+
+.features-h3-first {
+
+    position: absolute !important;
+    left: 55.52%;
+    right: 26.29%;
+    top: 26.96%;
+    bottom: 70.16%;
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    /* identical to box height */
+
+    letter-spacing: 2px;
+
+    color: #FFFFFF;
+}
+
+.features-h3-seconds {
+    position: absolute !important;
+    height: 73.64px;
+    left: 55.25%;
+    right: 16.22%;
+    /* top: calc(50% - 73.64px/2 - 147.97px); */
+    /* height: 77.70355224609375px;
+    width: 362.52117919921875px; */
+    left: 55%;
+    top: 30.09%;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+
+#requirements-game {
+    /* position: relative !important; */
+    width: 2100px;
+    height: 1440px;
+    /* left: 0px; */
+    /* width: 100%; */
+    /* height: 75%; */
+    top: 0.10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative !important;
+    background: url('../../images/images-ch3/assets-ch3/bg image reqruitment.png');
+    background-color: #0F0F0F;
+}
+
+.system-requirement-h1 {
+    /* height: 73.64273834228516px;
+    width: 633.1895751953125px;
+    left: 130px;
+    top: 136.129638671875px; */
+
+
+
+    position: absolute !important;
+    width: 90px;
+    height: 73.64px;
+    left: 9.02%;
+    right: 47.07%;
+    /* top: calc(50% - 73.64px/2 - 307.05px); */
+    top: 136.13px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.system-requirement-h3 {
+    /* height: 27.672561645507812px;
+width: 352.8627014160156px;
+left: 566.27392578125px;
+top: 145.1630859375px; */
+
+
+    position: absolute;
+    left: 29.27%;
+    right: 36.26%;
+    top: 11.12%;
+    bottom: 50%;
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 2px;
+
+    color: #FFFFFF;
+}
+
+.disquette {
+    /* position: absolute!important;
+    width: 141.03px;
+    height: 0px;
+    left: 746.42px;
+    top: 529.51px;
+    
+    border: 1.95955px solid #FFFFFF;
+    transform: rotate(90deg);
+    */
+    position: absolute !important;
+    width: 573.2px;
+    height: 400.69px;
+    left: 190.22px;
+    top: 388.5px;
+    border: 1px solid #979797;
+    mix-blend-mode: normal;
+    opacity: 0.3;
+}
+
+.vector5 {
+    position: absolute !important;
+    width: 0px;
+    height: 250.88px;
+    left: 270.03px;
+    top: 2.5px;
+
+
+    border: 1px solid #979797;
+}
+
+.vector3 {
+    position: absolute !important;
+    width: 572.85px;
+    height: 0px;
+    left: 1px;
+    top: 110.78px;
+
+    border: 1px solid #979797;
+}
+
+.vector4 {
+    position: absolute !important;
+    width: 572.77px;
+    height: 0px;
+    left: 3.65px;
+    top: 250.38px;
+
+    border: 1px solid #979797;
+}
+
+.operating-system {
+    /* jika ingin menggunakan properties ini harus di dalam  class div diquette 
+    height: 27.67px;
+    width: 261.56px;
+    left: 19.39px;
+    top: 15.38px;
+   */
+
+
+    height: 27.672561645507812px;
+    width: 261.5645751953125px;
+    left: 215.38671875px;
+    top: 403.38427734375px;
+
+
+
+    position: absolute !important;
+    /* left: 9.67%;
+    top: 42.02%;
+    right: 72.19%;
+    bottom: 55.1%; */
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    /* identical to box height */
+
+    letter-spacing: 2px;
+
+    color: #FFB548;
+    ;
+}
+
+.windows {
+    /* jika ingin menggunakan 
+    properties ini harus di dalam  
+    class div diquette 
+    height: 44.87px;
+    width: 257.65px;
+    left: 20.38px;
+    top: 45.6px; */
+    /* height: 20.86882781982422px; */
+    width: 200.647216796875px;
+    left: 217.38671875px;
+    top: 437.60009765625px;
+
+
+
+    position: absolute !important;
+    /* left: 9.67%;
+    right: 72.47%;
+    top: 45.58%;
+    bottom: 49.74%; */
+    /* word-spacing: 1pt; */
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    /* or 122% */
+
+
+    color: #FFFFFF;
+
+}
+
+.processor {
+    /* height: 27.672561645507812px;
+    width: 261.5645751953125px;
+    left: 415.798828125px;
+    top: 403.38427734375px; */
+
+    position: absolute !important;
+    left: 23%;
+    right: 53.03%;
+    top: 29.02%;
+    /* bottom: 25.1%; */
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    /* identical to box height */
+
+    letter-spacing: 2px;
+    color: #FFB548;
+
+}
+
+
+.specification-processor {
+    position: absolute;
+    left: 22.83%;
+    right: 53.27%;
+    top: 31.57%;
+    bottom: 48.77%;
+    word-spacing: 2pt;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    /* or 122% */
+
+    width: 258px;
+    height: 200px;
+    color: #FFFFFF;
+}
+
+
+.memory {
+    height: 27.672561645507812px;
+    width: 261.5645751953125px;
+    left: 220.7294921875px;
+    top: 529.04638671875px;
+
+
+    position: absolute !important;
+    /* left: 9.07%;
+    right: 72.8%;
+    top: 55.11%;
+    bottom: 42.01%; */
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    /* identical to box height */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #FFB548;
+
+}
+
+.storage {
+    height: 27.672561645507812px;
+    width: 261.5645751953125px;
+    left: 475.798828125px;
+    top: 529.04638671875px;
+
+
+    position: absolute !important;
+    /* left: 28.83%;
+    right: 53.03%;
+    top: 55.11%;
+    bottom: 42.01%; */
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    /* identical to box height */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #FFB548;
+
+}
+
+.gb4 {
+    /* height: 27.44357681274414px;
+    width: 118.5048828125px;
+    left: 130.7294921875px;
+    top: 564.096923828125px; */
+
+
+    position: absolute !important;
+    left: 10.57%;
+    right: 82.72%;
+    top: 40.76%;
+    bottom: 38.38%;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    /* or 122% */
+    color: #FFFFFF;
+
+    text-align: justify;
+}
+
+.gb8-available {
+    height: 44px;
+    width: 191.7190399169922px;
+    left: 475.798828125px;
+    top: 564.096923828125px;
+
+
+
+
+    position: absolute !important;
+    /* left: 28.83%;
+    right: 57.87%;
+    top: 58.76%;
+    bottom: 36.66%; */
+    color: #FFFFFF;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    /* or 122% */
+}
+
+
+
+.graphics {
+    height: 27.672561645507812px;
+    width: 261.5645751953125px;
+    left: 218.7294921875px;
+    top: 664.837646484375px;
+
+    position: absolute !important;
+    /* left: 9.07%;
+    right: 72.8%;
+    top: 69.25%;
+    bottom: 27.86%; */
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    /* identical to box height */
+
+    letter-spacing: 2px;
+
+    color: #FFB548;
+
+
+}
+
+.nvidia {
+    height: 53.12440490722656px;
+    width: 514.3056640625px;
+    left: 220.7294921875px;
+    top: 699.88818359375px;
+
+
+
+
+    position: absolute;
+    /* left: 9.07%;
+    right: 55.27%;
+    top: 72.91%;
+    bottom: 21.56%; */
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    /* or 122% */
+
+
+    color: #FFFFFF;
+}
+
+
+#top-scores {
+    /* position: absolute!important;
+    width: 1441.53px;
+    height: 961.13px;
+    left: 0.38px;
+    top: 2660.74px; */
+    /* position: absolute!important;
+    width: 1444.59px;
+    height: 1948.13px;
+    left: 0px;
+    top: 3590px; */
+    position: relative !important;
+    width: 2130.83px;
+    height: 1261.13px;
+    /* width: 100%; */
+    /* height: 75%; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* left: 2%; */
+    right: 20px;
+    top: 0.20px;
+
+
+    background: url(../../images/images-ch3/assets-ch3/top\ scores\ bg\ image-5.png);
+}
+
+/* position: absolute!important;
+width: 1441.53px;
+height: 961.13px;
+left: 0.38px;
+top: 2660.74px; */
+
+.text-topscores h1 {
+
+    /* height: 243.073486328125px;
+    width: 411.3215026855469px;
+    left: 117px;
+    top: 339.62646484375px; */
+
+    position: absolute !important;
+    /* width: 411.32px;
+    height: 243.07px;
+    left: 117px;
+    top: 339.63px; */
+    height: 153.56px;
+    left: 8.15%;
+    right: 63.31%;
+    /* top: calc(50% - 153.56px/2 - 63.6px); */
+    font-weight: 500;
+    width: 681.32px;
+    height: 143.07px;
+    left: 117px;
+    top: 339.63px;
+    color: #cccccc;
+    font-size: 55px;
+    font-family: 'sans';
+
+
+}
+
+
+
+.text-h1 {
+    height: 57px;
+    width: 359px;
+    left: 120px;
+    top: 425.69px;
+
+
+
+
+
+    position: absolute !important;
+    /* left: 8.33%;
+    right: 65.35%;
+    top: 44.34%;
+    bottom: 49.72%; */
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    /* or 122% */
+
+
+    color: #FFFFFF;
+}
+
+
+
+
+
+.btn-top-score {
+
+    height: 60px;
+    width: 260.3616027832031px;
+    left: 117px;
+    /* top: 582.699951171875px; */
+    border-radius: 4px;
+
+    position: absolute !important;
+    left: 4.12%;
+    /* right: 29.79%; */
+    top: 36.45%;
+    bottom: 39.3%;
+}
+
+.text-seemore {
+    height: 22px;
+    width: 191.26564025878906px;
+    left: 148.03564453125px;
+    top: 17.69px;
+
+
+    position: absolute !important;
+    height: 22px;
+    left: 10.28%;
+    right: 76.44%;
+    /* top: calc(50% - 22px/2 + 71.7px); */
+
+    font-family: 'sans';
+    font-style: normal;
+    font-weight: 550;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height */
+
+    text-align: center;
+    text-transform: lowercase;
+
+    color: #000000d7;
+
+
+
+}
+
+.btn-seemore-top-score {
+    height: 60px;
+    width: 260.3616027832031px;
+    /* left: 117px;
+    top: 522.699951171875px;
+  */
+
+
+    position: absolute !important;
+    left: 8.12%;
+    right: 73.79%;
+    top: 54.45%;
+    bottom: 39.3%;
+
+    background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+    border-radius: 4px;
+    text-transform: lowercase;
+}
+
+.card {
+    background: #0000000a;
+
+}
+
+.card-first {
+    height: 201px;
+    width: 441px;
+    /* left: -159px;
+    top: -346.43463134765625px; */
+
+
+    /* Rectangle 21 */
+    position: absolute !important;
+    left: 60.26%;
+    right: 8.31%;
+    top: 14.58%;
+    bottom: 64.37%;
+
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 15px;
+}
+
+.card-photo-evan img {
+    height: 61.830291748046875px;
+    width: 61.9163818359375px;
+    /* left: 884.5859375px; */
+    /* top: 173.62744140625px; */
+    position: absolute !important;
+    /* left: 61.43%; */
+    /* right: 34.27%; */
+    top: 1.09%;
+    bottom: 35.47%;
+    box-shadow: 0px 2px 6px 0px #2F53971A;
+
+    /* background: #FFFFFF; */
+    /* box-shadow: 0px 2px 6px rgba(47, 83, 151, 0.1); */
+    border-radius: 100px;
+}
+
+.card-img-evan {
+    height: 135.26px;
+    width: 135.26px;
+    /* left: 879.92px; */
+    /* top: 170.19px; */
+    /* border-radius: 0px; */
+
+    position: absolute !important;
+    /* left: 61.43%;
+    right: 34.27%;
+    top: 18.09%;
+    bottom: 75.47%; */
+
+    /* background:url(); */
+}
+
+
+.eclipse-yelow div {
+    position: absolute !important;
+    width: 67px;
+    height: 68px;
+    /* left: 890.23px;
+    top: 175.12px; */
+    right: 69%;
+    top: 54.09%;
+    bottom: 30.47%;
+
+    /* left: 884.5859375px; */
+    /* top: 173.62744140625px; */
+    background: #FFB548;
+    /* border:5% 10% 23% 25%;  */
+    border-radius: 35px;
+
+
+}
+
+
+.Card-title-evan h5 {
+    height: 27.672561645507812px;
+    width: 261.9283447265625px;
+    /* left: 976.813232421875px;
+    top: 185.45751953125px; */
+
+
+    position: absolute !important;
+    left: 40.83%;
+    right: 13.98%;
+    top: 70.32%;
+    /* bottom: 79.8%; */
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    /* identical to box height */
+
+    letter-spacing: 2px;
+
+    color: #FFB548;
+}
+
+.pc-game-evan {
+    height: 35.41864013671875px;
+    width: 384.1898193359375px;
+    /* left: 976.813232421875px; */
+    /* top: 206.88525390625px; */
+    /* work place */
+
+
+    position: absolute !important;
+    left: 40.83%;
+    right: 5.49%;
+    top: 140%;
+    /* bottom: 29.76%; */
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    /* or 122% */
+
+    text-align: justify;
+
+    color: #FFFFFF;
+
+    opacity: 0.5;
+
+}
+
+.quote-evan {
+    /* quote */
+    height: 30.293243408203125px;
+    width: 357.28692626953125px;
+    /* left: 884.5859375px; */
+    /* top: 262.158203125px; */
+
+
+
+    position: absolute !important;
+    left: 3.43%;
+    /* right: 53.76%; */
+    top: 378.31%;
+    /* bottom: 400.54%; */
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+
+    color: #FFFFFF;
+
+}
+
+
+
+.date-evan {
+    height: 20px;
+    width: 230.31988525390625px;
+    left: 884.400390625px;
+    /* top: 300.9638671875px; */
+    position: absolute;
+    left: 5.42%;
+    /* right: 23.59%; */
+    top: 490.35%;
+    bottom: 2.57%;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+
+    mix-blend-mode: normal;
+    opacity: 0.5;
+
+}
+
+
+.card-seconds {
+    /* height: 205px;
+    width: 453.88677978515625px;
+    left: 721.671875px;
+    top: 372.06640625px;
+    border-radius: 10px; */
+
+
+    height: 201px;
+    width: 441px;
+    /* left: -159px;
+    top: -346.43463134765625px; */
+
+    /* Rectangle 21 */
+
+
+    position: absolute !important;
+    left: 50.12%;
+    right: 18.36%;
+    top: 38.76%;
+    bottom: 39.89%;
+
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 15px;
+}
+
+
+.card-photo-jadda img {
+    height: 61.626556396484375px;
+    width: 61.91632080078125px;
+    left: 738.462158203125px;
+    top: 386.48876953125px;
+
+
+
+    /* background: #FFFFFF; */
+    /* box-shadow: 0px 2px 6px rgba(47, 83, 151, 0.1); */
+    /* border-radius: 100px; */
+    /* Mask Copy */
+
+
+    position: absolute !important;
+    left: 3.28%;
+    /* right: 25.42%; */
+    top: 1%;
+    bottom: 13.32%;
+
+    /* background: #FFFFFF; */
+    box-shadow: 0px 2px 6px 0px #2F53971A;
+    border-radius: 100px;
+}
+
+
+.card-img-jadda {
+    height: 135.26px;
+    width: 135.26px;
+    /* left: 879.92px; */
+    /* top: 170.19px; */
+    /* border-radius: 0px; */
+
+    position: absolute !important;
+    /* left: 51.28%;
+    right: 44.42%;
+    top: 40.26%;
+    bottom: 53.32%; */
+}
+
+.eclipse-yelow-jadda div {
+    /* height: 64.09435272216797px;
+    width: 64.30625915527344px;
+    left: 744.313232421875px;
+    top: 387.97314453125px; */
+
+
+    position: absolute !important;
+    width: 72px;
+    height: 69px;
+    /* left: 890.23px;
+    top: 175.12px; */
+    right: 66%;
+    top: 12.09%;
+    /* bottom: 25.47%; */
+    /* width: 64.31px;
+    height: 64.09px;
+    left: 744.31px;
+    top: 387.97px; */
+    /* left: 884.5859375px; */
+    /* top: 173.62744140625px; */
+    background: #FFB548;
+    /* border:5% 10% 23% 25%;  */
+    border-radius: 38px;
+
+
+}
+
+.card-title-jadda-griffin {
+    height: 23.9208984375px;
+    width: 119.16546630859375px;
+    /* left: 830.689453125px;
+    top: 398.27978515625px; */
+    /* name */
+
+
+    position: absolute !important;
+    left: 40.69%;
+    /* right: 34.04%; */
+    /* top: 41.49%; */
+    /* bottom: 56.02%; */
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 2px;
+
+    color: #FFB548
+}
+
+.pc-game-jadda {
+    height: 35.30194091796875px;
+    width: 384.18988037109375px;
+    /* left: 830.689453125px;
+    top: 419.63720703125px; */
+
+    /* work place */
+
+
+    position: absolute !important;
+    left: 40.69%;
+    /* right: 15.63%; */
+    top: 201.71%;
+    /* bottom: 22.61%; */
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    /* or 122% */
+
+    text-align: justify;
+
+    color: #FFFFFF;
+
+    opacity: 0.5;
+
+}
+
+.quote-jadda {
+    height: 60.17974853515625px;
+    width: 389.9666748046875px;
+    /* left: 738.462158203125px;
+    top: 474.72802734375px; */
+    /* quote */
+
+
+    position: absolute !important;
+    left: 5.28%;
+    /* right: 21.64%; */
+    top: 310.45%;
+    /* bottom: 44.28%; */
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+
+    color: #FFFFFF;
+
+}
+
+.date-jadda {
+    height: 17.940673828125px;
+    width: 230.31988525390625px;
+    /* left: 738.462158203125px;
+    top: 537.860595703125px; */
+
+    /* date */
+
+
+    position: absolute !important;
+    left: 5.28%;
+    /* right: 32.72%; */
+    top: 500.03%;
+    /* bottom: 42.1%; */
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+.twiter-evan {
+    height: 14px;
+    width: 18.0250244140625px;
+    left: 1282.373046875px;
+    top: 189.45703125px;
+    /* twitter */
+
+
+    position: absolute !important;
+    left: 139.05%;
+    /* right: 9.69%; */
+    top: 80.74%;
+    /* bottom: 78.81%; */
+
+    /* background: #FFFFFF; */
+    mix-blend-mode: normal;
+    /* opacity: 0.2; */
+
+}
+
+.twiter-jadda {
+    height: 14px;
+    width: 18.0250244140625px;
+    left: 1282.373046875px;
+    top: 189.45703125px;
+    /* twiiter */
+
+
+    position: absolute !important;
+    left: 138.91%;
+    /* right: 19.84%; */
+    top: 80.2%;
+    /* bottom: 56.64%; */
+
+    /* background: #FFFFFF; */
+    mix-blend-mode: normal;
+    /* opacity: 0.9; */
+
+}
+
+
+.twiter-aaron {
+    height: 14px;
+    width: 18.0250244140625px;
+    /* left: 1282.373046875px;
+    top: 189.45703125px; */
+    /* twiiter */
+
+
+    /* position: absolute!important;
+    left: 138.91%; */
+    /* right: 19.84%; */
+    /* top: 80.2%; */
+    /* bottom: 56.64%; */
+
+    /* background: #FFFFFF; */
+    /* mix-blend-mode: normal; */
+    /* opacity: 0.9; */
+    /* twitter */
+
+
+    position: absolute !important;
+    left: 136.25%;
+    /* right: 12.5%; */
+    top: 56.39%;
+    /* bottom: 32.15%; */
+
+    /* background: #FFFFFF; */
+    mix-blend-mode: normal;
+    /* opacity: 0.9; */
+
+}
+
+.card-third {
+    height: 205px;
+    width: 453.8868408203125px;
+    /* left: 827.4638671875px;
+    top: 607.036865234375px; */
+    border-radius: 10px;
+
+    /* Rectangle 21 */
+
+    /* background: #FFFFFF14; */
+
+    position: absolute !important;
+    left: 57.46%;
+    right: 11.02%;
+    top: 63.23%;
+    bottom: 15.41%;
+
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 10px;
+}
+
+.card-photo-aaron img {
+    /* Mask Copy */
+    height: 62px;
+    width: 62px;
+    left: 844.25439453125px;
+    top: 621.506591796875px;
+    /* border-radius: 100px; */
+
+
+    position: absolute !important;
+    left: -1%;
+    /* right: 37.07%; */
+    top: 1%;
+    /* bottom: 28.82%; */
+
+    background: #FFFFFF;
+    box-shadow: 0px 2px 6px rgba(47, 83, 151, 0.1);
+    border-radius: 100px;
+}
+
+
+.card-image-aaron {
+    height: 63px;
+    width: 63px;
+    /* left: 843.081787109375px;
+    top: 621.506591796875px; */
+    /* border-radius: 0px; */
+
+
+    /* photo */
+
+    position: absolute !important;
+    left: 85.63%;
+    /* right: 37.07%; */
+    /* top: 90.74%; */
+    /* bottom: 28.82%; */
+    /* background: url(image.png); */
+}
+
+.eclipse-yelow-aaron div {
+    height: 66px;
+    width: 70px;
+
+
+
+    /* Ellipse */
+
+
+    position: absolute !important;
+    /* width: 64.31px;
+    height: 64.31px; */
+    /* left: 849.96px;
+    top: 623px; */
+    right: 66%;
+    top: 10.09%;
+    background: #FFB548;
+    border-radius: 33px;
+}
+
+.card-title-aaron-williams {
+    height: 27.67254638671875px;
+    width: 261.9283447265625px;
+    /* left: 936.4814453125px; */
+    /* top: 633.336669921875px; */
+
+
+    /* name */
+
+
+    position: absolute !important;
+    left: 43.03%;
+    /* right: 16.78%; */
+    top: 19.97%;
+    /* bottom: 31.14%; */
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    /* identical to box height */
+
+    letter-spacing: 2px;
+
+    color: #FFB548;
+
+
+}
+
+
+.pc-game-aaron {
+    height: 35.41864013671875px;
+    width: 384.1898193359375px;
+    /* left: 936.4814453125px;
+    top: 654.764404296875px; */
+
+
+    /* work place */
+
+
+    position: absolute !important;
+    left: 43.03%;
+    /* right: 8.29%; */
+    top: 110.2%;
+    /* bottom: 28.11%; */
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    /* or 122% */
+
+    text-align: justify;
+
+    color: #FFFFFF;
+
+    opacity: 0.5;
+
+}
+
+
+.quote-aaron {
+    height: 42.99609375px;
+    width: 407.29071044921875px;
+    /* left: 844.25439453125px; */
+    /* top: 710.037841796875px; */
+
+
+    /* quote */
+
+
+    position: absolute !important;
+    left: 10.63%;
+    /* right: 13.09%; */
+    top: 323.96%;
+    /* bottom: 21.56%; */
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+
+    color: #FFFFFF;
+}
+
+
+
+.date-aaron {
+    height: 20px;
+    width: 230.3199462890625px;
+    /* left: 843.933349609375px; */
+    /* top: 770.447021484375px; */
+
+
+    /* date */
+
+
+    position: absolute !important;
+    left: 12.61%;
+    right: 25.4%;
+    top: 515.25%;
+    /* bottom: 17.66%; */
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+
+    mix-blend-mode: normal;
+    opacity: 0.5;
+
+}
+
+
+#newsletter-id {
+    /* height: 948.130859375px;
+    width: 1444.592529296875px; */
+    /* left: 1444.5546875px;
+    top: 3840.0000915527344px; */
+
+
+    /* bg image 5 */
+
+
+    /* position: absolute!important;
+    width: 1444.59px;
+    height: 948.13px;
+    left: 1444.55px;
+    top: 3840px;
+
+    background: url(/images/assets/newslatter\ background.jpg);
+    transform: matrix(-1, 0, 0, 1, 0, 0); */
+    /* Rectangle 4.3 */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: visible;
+    position: relative !important;
+    width: 2100.25px;
+    /* height: 800.87px; */
+    left: 0px;
+    top: 159.10%;
+
+    /* background-color: #080A0B; */
+    background-image: url(../../images/images-ch3/assets-ch3/Rectangle\ 4.3.jpg);
+
+
+}
+
+
+
+.group-skull {
+    /* height: 694.408447265625px; */
+    /* width: 445.4664611816406px; */
+    /* left: 159.960205078125px; */
+    /* top: 49.97607421875px; */
+
+
+    /* Rectangle 4.2 */
+
+
+    position: absolute !important;
+    width: 445.47px;
+    height: 694.41px;
+    /* left: 159.96px; */
+    /* top: 109.98px; */
+
+    background: radial-gradient(45.43% 53.19% at 50% 50%, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0) 46.15%, #080A0B 99.74%);
+}
+
+.image-skull {
+    height: 655.603515625px;
+    width: 412.3489685058594px;
+    /* left: 605.4267578125px; */
+    top: 300.33984375px;
+
+
+    /* image */
+
+
+    position: absolute !important;
+    /* width: 412.35px; */
+    /* height: 655.6px; */
+    left: 160.43px;
+    /* top: 72.34px; */
+    background: url(../../images/images-ch3/assets-ch3/skull-gold.png);
+
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+
+
+.h3-newsletter-first {
+    height: 27.788345336914062px;
+    width: 261.5645751953125px;
+    left: 675.91796875px;
+    top: 220.21240234375px;
+
+    /* h3 */
+
+
+    position: absolute !important;
+    left: 46.87%;
+    right: 34.99%;
+    top: 22.94%;
+    bottom: 74.17%;
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    /* identical to box height */
+
+    letter-spacing: 2px;
+
+    color: #FFFFFF;
+}
+
+.h1-newsletter-seconds {
+    /* height: 76.28014373779297px;
+    width: 677.2380981445312px;
+    left: 672.8779296875px;
+    top: 256.552734375px; */
+
+
+
+    /* h1 */
+
+
+    position: absolute !important;
+    height: 76.28px;
+    left: 46.66%;
+    right: 6.37%;
+    top: calc(50% - 76.28px/2 - 185.31px);
+
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 92px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+
+.h6-newslatter-third {
+    height: 136.56881713867188px;
+    width: 644.958740234375px;
+    left: 675.00146484375px;
+    top: 378.68701171875px;
+
+    /* text */
+
+
+    position: absolute !important;
+    left: 46.81%;
+    right: 8.46%;
+    top: 45.45%;
+    bottom: 46.33%;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    /* or 122% */
+
+
+    color: #FFFFFF;
+
+}
+
+.your-email-address div {
+    /* height: 70.16326904296875px; */
+    /* width: 428.00244140625px; */
+    /* left: 675.91796875px; */
+    /* top: 710.7021484375px; */
+    border-radius: 5px;
+    top: 55%;
+    /* email form */
+
+
+    position: absolute !important;
+    width: 366px;
+    height: 60.16px;
+    left: 47%;
+    /* top: 280.7px; */
+
+}
+
+
+.email-newsletter {
+    /* height: 60px; */
+    /* width: 366.9217529296875px; */
+    /* left: 675.91796875px; */
+    /* top: 510.7021484375px; */
+    /* border-radius: 5px; */
+
+    /* Rectangle 5 */
+
+
+    position: absolute !important;
+
+    /* position: absolute; */
+    /* width: 366.92px; */
+    height: 60px;
+    left: 675.92px;
+    top: 510.7px;
+
+
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 5px;
+}
+
+.txt-input-mail {
+    height: 43.17596435546875px;
+    width: 406.72509765625px;
+    /* left: 697.1953125px;
+    top: 537.689453125px; */
+
+
+    /* email adress */
+
+
+    position: absolute !important;
+    left: 5.35%;
+    /* right: 23.45%; */
+    top: 42.01%;
+    bottom: 39.49%;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+
+    color: #FFB548;
+}
+
+.mail-adres {
+    height: 20px;
+    width: 177.94541931152344px;
+    /* left: 697.111572265625px;
+    top: 516.845703125px; */
+
+
+    /* Your email address */
+    position: absolute !important;
+    /* width: 177.95px;
+    height: 20px; */
+    left: 21.11px;
+    top: 11.85px;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    border-radius: 4px;
+
+}
+
+.btn-call-to-action-subscribe-yt button {
+
+    height: 60.2510986328125px;
+    width: 260px;
+    /* left: 1060.05908203125px; */
+    /* top: 510.57666015625px; */
+    border-radius: 4px;
+
+    /* button call-to-action */
+
+
+    position: absolute !important;
+    left: 65%;
+    right: 8.46%;
+    top: 55.20%;
+    bottom: 40.54%;
+}
+
+.btn-subscribe {
+    /* height: 960px; */
+    /* width: 1442px; */
+    /* left: -1px; */
+    /* top: 4800.129730224609px; */
+    /* border-radius: 0px; */
+
+    /* base */
+
+
+    position: absolute !important;
+    left: 73.51%;
+    right: 8.46%;
+    top: 53.19%;
+    bottom: 40.54%;
+
+    background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+    border-radius: 4px;
+}
+
+.subscribe-now {
+    height: 22px;
+    width: 116px;
+    /* left: 1131.051513671875px; */
+    /* top: 528.44921875px; */
+
+
+    /* subscribe now */
+
+
+    position: absolute !important;
+    height: 22px;
+    left: 26.44%;
+    right: 13.52%;
+    top: 18%;
+    /* top: calc(50% - 22px/2 + 59.45px); */
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #1A1917;
+
+}
+
+
+.fohter {
+    /* height: 233px;
+    width: 1442px;
+    left: 0px;
+    top: 723px; */
+
+
+    position: relative !important;
+    width: 2100px;
+    height: 1400px;
+    left: 10px;
+    /* top: 1200px; */
+    /* bottom: 1200px; */
+    /* overflow: scroll; */
+    /* bottom: 800px; */
+    /* overflow: scroll; */
+}
+
+.main-footer {
+
+    height: 20.187374114990234px;
+    width: 67.50887298583984px;
+    /* left: 347.938720703125px;
+    top: 80.93701171875px; */
+
+
+
+    /* main */
+
+
+    position: relative !important;
+    /* width: 67.51px;
+    height: 20.19px; */
+    left: 347.94px;
+    top: 200%;
+    /* left: 210%; */
+    /* top: 9%; */
+    /* left: calc(50% - 67.51px/2 - 339.31px); */
+    /* top: calc(50% - 20.19px/2 - 25.47px); */
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: right;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+    /* color: #FFB548; */
+}
+
+.about-footer {
+    height: 20.187374114990234px;
+    width: 65.8087387084961px;
+    /* left: 447.48876953125px;
+    top: 80.93701171875px; */
+    left: 447px;
+    top: 1600%;
+
+    /* about */
+
+
+    position: relative !important;
+    /* width: 65.81px;
+    height: 20.19px; */
+    /* left: calc(50% - 65.81px/2 - 240.61px);
+    top: calc(50% - 20.19px/2 - 25.47px); */
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: right;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.features-footer {
+    height: 20.187374114990234px;
+    width: 154.80372619628906px;
+
+    left: 551px;
+    top: 1600%;
+    /* features */
+
+
+    position: relative !important;
+    width: 154.8px;
+    height: 20.19px;
+    /* left: calc(50% - 154.8px/2 - 92.11px);
+    top: calc(50% - 20.19px/2 - 25.47px); */
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+}
+
+
+.requirements-footer {
+    height: 20.187374114990234px;
+    width: 190.29269409179688px;
+    /* left: 712.326904296875px;
+    top: 80.93701171875px;
+      */
+    left: 712px;
+    top: 1600%;
+
+
+    /* requirements */
+
+
+    position: relative !important;
+    /* width: 190.29px;
+    height: 20.19px; */
+    /* left: calc(50% - 190.29px/2 + 86.47px);
+    top: calc(50% - 20.19px/2 - 25.47px); */
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+
+}
+
+
+.quotes-footer {
+    height: 21.40279769897461px;
+    width: 64.83201599121094px;
+    /* left: 924.805419921875px;
+    top: 80.32958984375px; */
+    left: 924px;
+    top: 1600%;
+
+
+    /* quotes */
+
+
+    position: relative !important;
+    /* width: 64.83px;
+    height: 21.4px; */
+    /* left: calc(50% - 64.83px/2 + 236.22px);
+    top: calc(50% - 21.4px/2 - 25.47px); */
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: right;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.social-media .facebook-footer a {
+
+    height: 31.079103469848633px;
+    width: 241.44239807128906px;
+    /* left: 1076.517822265625px;
+    top: 77.18359375px;
+     */
+
+    /* Social */
+
+
+    position: relative !important;
+    /* width: 241.44px;
+    height: 31.08px; */
+    left: 1076.52px;
+    top: 1597%;
+    /* background-color: blue; */
+
+}
+
+.facebook-footer {
+    height: 18.98900032043457px;
+    width: 9.227999687194824px;
+    /* left: 1076.517822265625px;
+    top: 77.18359375px; */
+    left: 1076px;
+    top: 1600%;
+    /* facebook */
+
+
+    position: relative !important;
+    /* width: 9.23px; */
+    /* height: 18.99px; */
+    /* left: 1076.52px; */
+    /* top: 77.18px; */
+
+
+    /* background: #FFFFFF;     */
+    background-image: url(../../images/images-ch3/assets-ch3/facebook\ image\ 1.png);
+}
+
+
+.twitter-footer {
+    height: 16.000999450683594px;
+    width: 21.007999420166016px;
+    /* left: 1145.205810546875px;
+    top: 79.53466796875px; */
+
+
+    left: 1145px;
+    top: 1601%;
+    /* twitter */
+
+    position: relative !important;
+    /* width: 21.01px; */
+    /* height: 16px; */
+    /* left: 1145.21px;
+    top: 79.53px; */
+    /* 
+    background: #FFFFFF; */
+    background-image: url(../../images/images-ch3/assets-ch3/images\ twitter.png);
+}
+
+
+.youtube-footer {
+    height: 17.99448013305664px;
+    width: 24.994586944580078px;
+    /* left: 1220.7998046875px;
+    top: 77.18359375px; */
+
+
+
+    /* left: 1145px; */
+    top: 1601%;
+    /* Vector */
+
+    position: relative !important;
+    left: 84.66%;
+    right: 13.61%;
+    /* top: 33.13%;
+    bottom: 59.15%; */
+    /* background: #FF1313; */
+    background-image: url(../../images/images-ch3/assets-ch3/images\ vector.png);
+}
+
+
+.cursor {
+    height: 18.999998092651367px;
+    width: 10px;
+    /* left: 1240.296875px;
+    top: 89.2626953125px; */
+
+
+
+
+    /* cursor */
+
+    position: relative !important;
+    left: 86.01%;
+    right: 13.29%;
+    top: 38.31%;
+    bottom: 53.54%;
+}
+
+
+.cursor-line-footer {
+    height: 0px;
+    width: 10px;
+    /* left: 1242.296875px;
+    top: 98.2626953125px; */
+    /* left: 1145px; */
+    /* top: 1611%; */
+
+
+    /* Line */
+
+    position: relative !important;
+    left: -6%;
+    /* right: 13.1%; */
+    /* top: 15000%; */
+    bottom: 57.83%;
+    top: 19298%;
+
+    border: 3px solid #FFFFFF;
+    box-sizing: border-box;
+    transform: rotate(68.2deg);
+
+    /* background-image: url(../images/assets/images\ Line.png); */
+}
+
+.cursor-rectangle-9-footer {
+    height: 12px;
+    width: 10px;
+    /* left: 1240.296875px;
+    top: 89.2626953125px;
+    */
+
+
+    /* Rectangle 9 */
+
+    position: relative !important;
+    left: -22%;
+    right: 13.29%;
+    top: 19233%;
+    /* bottom: 55.68%; */
+    /* 
+    background: #FFFFFF; */
+    background-image: url(../../images/images-ch3/assets-ch3/images\ Rectangle\ 9.png);
+}
+
+.twitch {
+    height: 18.16483497619629px;
+    width: 19.148935317993164px;
+    /* left: 1298.811279296875px;
+    top: 79.68017578125px; */
+
+
+    /* twitch */
+
+    position: relative !important;
+    /* width: 8.15px;
+    height: 4.16px; */
+    left: 700%;
+    right: -1.29%;
+    top: 19220%;
+    /* left: 1298.81px; */
+    /* top: 79.68px; */
+
+
+}
+
+.vector-twitch {
+    height: 5.1px;
+    width: 7.8px;
+    /* left: 1305.83251953125px;
+    top: 84.5869140625px; */
+
+
+
+
+    /* Vector */
+
+    position: relative !important;
+    left: 8%;
+    /* right: 9.03%; */
+    top: -13%;
+    /* Vector */
+
+    /* position: absolute!important;
+    left: 90.56%;
+    right: 9.03%;
+    top: 36.3%;
+    bottom: 61.9%;
+
+    background: #FFFFFF; */
+    /* bottom: 61.9%; */
+
+    /* background: #FFFFFF; */
+    background-image: url(../../images/images-ch3/assets-ch3/images\ twitch-Vector.png);
+
+    /* background-image: transparent; */
+    /* opacity: 5; */
+
+}
+
+.group-twitch a {
+    height: 18.16483497619629px;
+    width: 19.148935317993164px;
+    /* left: 1298.811279296875px;
+    top: 79.68017578125px; */
+
+
+
+
+    /* Group */
+
+    position: relative !important;
+    left: 5%;
+    /* right: 8.6%; */
+    top: -8%;
+    /* bottom: 58.01%; */
+    background-image: url(../../images/images-ch3/assets-ch3/images\ Group\ twitch.png);
+
+}
+
+.subtract-group-twitch {
+    /* height: 18.16483497619629px;
+    width: 19.148935317993164px; */
+    /* left: 1298.811279296875px;
+    top: 79.68017578125px; */
+
+    /* Subtract */
+
+    position: relative !important;
+    width: 19.15px;
+    height: 14.16px;
+    left: -30%;
+    top: -31%;
+    /* left: 1298.81px; */
+    /* top: 79.68px; */
+
+    background-image: url(../../images/images-ch3/assets-ch3/images\ Subtract\ twitch.png);
+
+}
+
+.vector-subtract-first {
+    height: 13.36263656616211px;
+    width: 14.468085289001465px;
+    /* left: 1301.5771484375px;
+    top: 81.3505859375px; */
+
+    /* Vector */
+
+    position: relative !important;
+    left: 90.26%;
+    right: 8.73%;
+    top: 34.91%;
+    /* bottom: 59.35%; */
+
+    background: transparent
+}
+
+
+.vector-subtract-second {
+    height: 18.16483497619629px;
+    width: 19.148935317993164px;
+    /* left: 1298.811279296875px;
+    top: 79.68017578125px; */
+
+    /* Vector */
+
+    position: relative !important;
+    left: 90.07%;
+    right: 8.6%;
+    top: 34.2%;
+    bottom: 58.01%;
+    /* 
+    background: #FFFFFF; */
+}
+
+.border-footer-skull {
+    height: 1197.8212890625045px;
+    width: 0px;
+    /* left: 120.223876953125px;
+    top: 141.80615234375px; */
+
+    /* border */
+
+    position: relative !important;
+    width: 0px;
+    /* height: 1197.82px; */
+    /* left: 120.22px; */
+    /* top: 141.81px; */
+    left: 51.07%;
+    top: 1380.2%;
+    opacity: 0.5;
+    border: 0.873968px solid #FFFFFF;
+    transform: rotate(-90deg);
+
+}
+
+.copyright {
+    height: 21.89652442932129px;
+    width: 339.88232421875px;
+    /* left: 120.223876953125px;
+    top: 163.80615234375px; */
+    /* copyright */
+
+    position: relative !important;
+    /* width: 339.88px;
+    height: 21.9px; */
+    /* left: calc(50% - 339.88px/2 - 430.83px);
+    top: calc(50% - 21.9px/2 + 58.25px); */
+    left: 9.3%;
+    top: 1651.2%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+
+    mix-blend-mode: normal;
+    opacity: 0.5;
+
+}
+
+.privacy-policy-footer {
+    height: 21.40279769897461px;
+    width: 543.285400390625px;
+    /* left: 876.6044921875px; */
+    /* top: 166.03173828125px; */
+    left: 55.3%;
+    top: 151px;
+    /* privacy policy... */
+
+    position: relative !important;
+    /* width: 443.29px; */
+    /* height: 21.4px; */
+    /* left: calc(50% - 443.29px/2 + 377.25px); */
+    /* top: calc(50% - 21.4px/2 + 60.23px); */
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: right;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+}

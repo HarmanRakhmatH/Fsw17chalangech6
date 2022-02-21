@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include('partial/head') %>
+
+<body>
+    <div class="container-fluid">
+        <h1 class="text-center"> Edit User game Traditional</h1>
+        <div>
+            <form action="/AccountUser/edit/<%= data.uuid %>" method="post">
+                <input class="form-control  w-100" type="text" name="username" placeholder="Please Input UserName"
+                    value="<%= data.username %>">
+                <input class="form-control  w-100 mt-2" type="email" name="email" placeholder="Please Input Email"
+                    value=" <%= data.email %> ">
+                <input class="form-control  w-100 mt-2" type="password" name="password"
+                    placeholder=" Please Input Password" value=" <%= data.password %> ">
+                <input class="form-control  w-100 mt-2  " type="number" name="age" placeholder="Please Input Age"
+                    value=" <%= data.user_game_biodata.age %> ">
+                <input class="form-control  w-100 mt-2  " type="text" name="address" placeholder="Please Input Address"
+                    value=" <%= data.user_game_biodata.address %> ">
+                <input class="form-control  w-100 mt-2  " type="text" name="city" placeholder="Please Input City"
+                    value=" <%= data.user_game_biodata.city %> ">
+                <input class="form-control  w-100 mt-2  " type="number" name="win" placeholder="Masukkan score win"
+                    value=" <%= data.user_game_history.win %> ">
+                <input class="form-control  w-100 mt-2  " type="number" name="lose" placeholder="Masukkan score lose"
+                    value=" <%= data.user_game_history.lose %> ">
+                <input class="form-control  w-100 mt-2  " type="text" name="status"
+                    placeholder="Masukkan value true or false" value=" <%= data.user_game_history.status %> ">
+                <input class="form-control  w-100 mt-2  " type="text" name="is_active" placeholder="Masukkan is_active"
+                    value=" <%= data.user_game_history.is_active %> ">
+                <div class="btn-group my-4 d-flex flex-column flex-md-row justify-content-md-center">
+                    <button type="submit" class="btn-confirm my-2 me-md-4">Update</button>
+                    <a href="/"><button type="button" class="btn-back my-2">Logout</button></a>
+                </div>
+            </form>
+            <form action="/delete/<%= data.uuid %>" method="POST" class="profile__delete-btn">
+                <button type="submit">Delete Account</button>
+            </form>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

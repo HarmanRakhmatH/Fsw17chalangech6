@@ -1,0 +1,25 @@
+const { Sequelize } = require('sequelize');
+
+// Option 3: Passing parameters separately (other dialects)
+// setup conenection 'nama database', 'username psql', 'password psql'
+const sequelize = new Sequelize(process.env.DB, process.env.DBUSERNAME, process.env.DBPASSWORD, {
+    host: process.env.DBHOST,
+    dialect: process.env.DBDIALECT,
+    port: process.env.DBPORT
+});
+
+module.exports = sequelize
+
+// untuk check koneksi
+// const connect = async () => {
+//     try {
+//         await sequelize.authenticate();
+//         console.log('Connection has been established successfully.');
+//     } catch (error) {
+//         console.error('Unable to connect to the database:', error);
+//     }
+// }
+
+// module.exports = connect
+
+

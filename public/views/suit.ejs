@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<%- include('partial/head') %>
+
+<title><%= PageTitle %> </title>
+
+<body>
+    <section>
+
+        <nav class="navbar navbar-light bg-light">
+            <div class="container-fluid">
+                <span class="navbar-brand mb-0 h1">Welcome, <%=status%> </span>
+                <span class="navbar-brand mb-0 h1">
+                    <button class="btn btn-danger" type="submit">Logout</button>
+                    <button class="btn btn-danger" type="submit">register</button>
+                    <button class="btn btn-danger" type="submit">profile users</button>
+                </span>
+            </div>
+        </nav>
+    </section>
+
+    <div class="container col-lg-4 d-flex justify-content-center">
+
+        <div class="back-ch3">
+            <a href="/harman-chalange-chapter-3-master/index.html"><img src="/images/sign back 1.jpg" alt=""></a>
+        </div>
+        <div class="ch3-img-suit">
+            <a href="/harman-chalange-chapter-3-master/index.html"><img src="/images/images logo 1-suitVS.png"
+                    alt=""></a>
+        </div>
+        <div class="rps-title-suit">
+            <h3>rock paper scissors</h3>
+        </div>
+        <div class="col-lg-4 d-flex justify-content-center">
+            <div class="row g-2 player-satu" id="playerId">
+                <div class="col-12">
+                    <div class="p-3 text-center play-game-subtitle">PLAYER</div>
+                </div>
+                <div class="col-12 text-center">
+                    <div class="py-4 d-flex justify-content-center">
+                        <button class=" 
+                                
+                    btn btn-play-game
+                    d-flex
+                    justify-content-center
+                    align-items-center
+                    " data-player="batu">
+                            <img class="play-game-icon-size" src="/images/images batu 1-suitVS.png" alt="" srcset="" />
+                        </button>
+                    </div>
+                </div>
+                <div class="col-12 text-center">
+                    <div class="py-4 d-flex justify-content-center">
+                        <button class="btn btn-play-game d-flexjustify-content-center align-items-center "
+                            data-player="kertas">
+                            <img class="play-game-icon-size" src="/images/images kertas 1-suitVS.png" alt=""
+                                srcset="" />
+                        </button>
+                    </div>
+                </div>
+                <div class="col-12 text-center">
+                    <div class="py-4 d-flex justify-content-center">
+                        <button class="  btn btn-play-game d-flexjustify-content-center align-items-center"
+                            data-player="gunting">
+                            <img class="play-game-icon-size" src="/images/images gunting 1-suitVS.png" alt=""
+                                srcset="" />
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 d-flex justify-content-center align-content-center">
+            <div class="row g-2">
+                <div class="col-12">
+                    <div class=" play-game-result play-game-vs  p-3  d-flex justify-content-center align-items-center "
+                        id="bgHasil">
+                        <span id="idHasil">VS</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 d-flex justify-content-center">
+            <div class="row g-2" id="computerId">
+                <div class="col-12">
+                    <div class="p-3 text-center play-game-subtitle">COM</div>
+                </div>
+                <div class="col-12 text-center">
+                    <div class="py-4 d-flex justify-content-center">
+                        <div class=" btn btn-play-game  d-flex   justify-content-center  align-items-center"
+                            id="comBatu">
+                            <img class="play-game-icon-size " src="/images/images batu 1-suitVS.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 text-center">
+                    <div class="py-4 d-flex justify-content-center">
+                        <button class="
+                btn btn-play-game
+                d-flex
+                justify-content-cen-ter
+                align-items-center
+                " id="comKertas">
+                            <img class="play-game-icon-size  " src="/images/images kertas 1-suitVS.png" alt=""
+                                srcset="" />
+                        </button>
+                    </div>
+                </div>
+                <div class="col-12 text-center">
+                    <div class="py-4 d-flex justify-content-center">
+                        <button class="
+                btn btn-play-game
+                d-flex
+                justify-content-center
+                align-items-center
+                " id="comGunting">
+                            <img class="play-game-icon-size " src="/images/images gunting 1-suitVS.png" alt=""
+                                srcset="" />
+                        </button>
+                    </div>
+                </div>
+                <div class="col-12 text-center">
+                    <div class="py-4 d-flex justify-content-center">
+                        <button class=" 
+                btn
+                d-flex
+                justify-content-center
+                align-items-center
+                " id="refreshButton">
+                            <img class="play-game-icon-size" src="/images/images refresh 2-suitVS.png" alt=""
+                                srcset="" />
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </section>
+
+    <%- include('partial/footer') %>
+
+</body>
+
+</html>
